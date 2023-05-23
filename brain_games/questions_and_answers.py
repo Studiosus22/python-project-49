@@ -52,7 +52,7 @@ def progression_qa():
     hidden_item_num = random.randint(0, (p_quantity - 1))
     hidden_item = p_list[hidden_item_num]
     p_pre_hidden_part = " ".join(map(str, p_list[0:hidden_item_num]))
-    p_past_hidden_part = " ".join(map(str, p_list[(hidden_item_num+1):]))
+    p_past_hidden_part = " ".join(map(str, p_list[(hidden_item_num + 1):]))
 
     game_question = f'Question: {p_pre_hidden_part} .. {p_past_hidden_part}'
     correct_answer = str(hidden_item)
@@ -67,11 +67,11 @@ def is_prime_qa():
     if num == 2 or num == 3:
         correct_answer = 'yes'
     if num > 3:
-        for i in range(2, int(num/2)+1):
+        for i in range(2, int(num / 2) + 1):
             if (num % i) == 0:
                 correct_answer = 'no'
                 break
             else:
                 correct_answer = 'yes'
-    
+
     return game_question, correct_answer

@@ -16,9 +16,9 @@ def user_greeting():
 def game_process(game_task, question_and_answer):
 
     user_greeting()
-            
+
     print(game_task)
-    
+
     i = 0
     while i < 3:
         game_question, correct_answer = question_and_answer()
@@ -33,5 +33,3 @@ def game_process(game_task, question_and_answer):
             i += 1
             if i == 3:
                 print(f'Congratulations, {name}!')
-
-        

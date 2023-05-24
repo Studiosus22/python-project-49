@@ -49,7 +49,7 @@ def progression_qa():
     p_quantity = random.randint(5, 12)
     p_finish = p_start + p_step * p_quantity
     p_list = list(range(p_start, p_finish, p_step))
-    hidden_item_num = random.randint(0, (p_quantity - 1))
+    hidden_item_num = random.randint(1, (p_quantity - 2))
     hidden_item = p_list[hidden_item_num]
     p_pre_hidden_part = " ".join(map(str, p_list[0:hidden_item_num]))
     p_past_hidden_part = " ".join(map(str, p_list[(hidden_item_num + 1):]))

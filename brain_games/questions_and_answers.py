@@ -54,7 +54,7 @@ def progression_qa():
     p_pre_hidden_part = " ".join(map(str, p_list[0:hidden_item_num]))
     p_past_hidden_part = " ".join(map(str, p_list[(hidden_item_num + 1):]))
 
-    game_question = f'Question: {p_pre_hidden_part} .. {p_past_hidden_part}'
+    game_question = f'{p_pre_hidden_part} .. {p_past_hidden_part}'
     correct_answer = str(hidden_item)
 
     return game_question, correct_answer

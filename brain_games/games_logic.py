@@ -26,7 +26,7 @@ def game_process(game_task, question_and_answer):
         print('Your answer: ', end='')
         user_answer = input()
         if user_answer.lower() != str(correct_answer):
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}', {name}.")
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
             i += 4
         else:
             print('Correct!')

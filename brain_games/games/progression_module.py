@@ -18,6 +18,7 @@ MAX_QUANTITY = 12
 
 game_task = 'What number is missing in the progression?'
 
+
 def question_and_answer():
     p_start = random.randint(MIN_START_POINT, MAX_START_POINT)
     p_step = random.randint(MIN_STEP, MAX_STEP)

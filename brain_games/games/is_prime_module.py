@@ -5,9 +5,11 @@ import random
 
 MIN_NUMBER = 1
 MAX_NUMBER = 100
-# Минимальное и максимальное значения диапазона, из которого выбирается число для вопроса. Заданы произвольно.
+# Границы диапазона, из которого выбирается число для вопроса.
+# Заданы произвольно.
 
 game_task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def question_and_answer():
     num = random.randint(MIN_NUMBER, MAX_NUMBER)

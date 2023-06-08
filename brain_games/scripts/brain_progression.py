@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
 
 
-from brain_games.games_logic import game_process
-from brain_games.questions_and_answers import progression_qa as game_function
-
-
-game_task = 'What number is missing in the progression?'
+from brain_games.games_logic import do_the_game
+from brain_games.games import progression_module
 
 
 def main():
-    game_process(game_task, game_function)
+    do_the_game(progression_module)
 
 
 if __name__ == '__main__':

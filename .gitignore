@@ -1,9 +1,7 @@
 # created by virtualenv automatically
 *.egg-info
-__pycache__
-.brain_games/__pycache__
-.scripts/__pycache__
-.dist
+__pycache__/
+dist/
 *.pyc
 .venv/
 .coverage

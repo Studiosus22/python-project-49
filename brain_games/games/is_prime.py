@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import random
 
 
@@ -7,11 +5,10 @@ MIN_NUMBER = 1
 MAX_NUMBER = 100
 # Границы диапазона, из которого выбирается число для вопроса.
 # Заданы произвольно.
+GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-game_task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-
-def question_and_answer():
+def ask_and_answer():
     num = random.randint(MIN_NUMBER, MAX_NUMBER)
     game_question = num
 

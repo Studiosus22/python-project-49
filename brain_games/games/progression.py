@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import random
 
 
@@ -15,11 +13,10 @@ MAX_STEP = 10
 MIN_QUANTITY = 5
 MAX_QUANTITY = 12
 
+GAME_TASK = 'What number is missing in the progression?'
 
-game_task = 'What number is missing in the progression?'
 
-
-def question_and_answer():
+def ask_and_answer():
     p_start = random.randint(MIN_START_POINT, MAX_START_POINT)
     p_step = random.randint(MIN_STEP, MAX_STEP)
     p_quantity = random.randint(MIN_QUANTITY, MAX_QUANTITY)

@@ -2,11 +2,11 @@
 
 
 from brain_games.games_logic import do_the_game
-from brain_games.games import gcd_module
+from brain_games.games import gcd
 
 
 def main():
-    do_the_game(gcd_module)
+    do_the_game(gcd)
 
 
 if __name__ == '__main__':

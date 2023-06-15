@@ -21,11 +21,11 @@ $ cd python-project-49 && python3 setup.py install
 
 ### Start games
 * $ cd python-project-49 &&
- * **brain-even**  _starts **"Is even?"** game_
- * **brain-calc**  _starts **"Calculator"** game_
- * **brain-gcd**  _starts **"Greatest common divisor"** game_
- * **brain-progression**  _starts **"Progression"** game_
- * **brain-prime**  _starts **"Is prime?"** game_
+  * **brain-even**  _starts **"Is even?"** game_
+  * **brain-calc**  _starts **"Calculator"** game_
+  * **brain-gcd**  _starts **"Greatest common divisor"** game_
+  * **brain-progression**  _starts **"Progression"** game_
+  * **brain-prime**  _starts **"Is prime?"** game_
 
 
 ### Demonstration (asciinema's)

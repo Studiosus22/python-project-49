@@ -16,12 +16,12 @@
 * Clone the repository and install manually:
 ```bash
 $ git clone git@github.com:Studiosus22/python-project-49.git
-$ cd python-project-49 && python3 setup.py install
+$ cd python-project-49 && _make build_ --> _make publish_ --> _make package-install_
 ```
 
 
 ### Start games
-* **$ cd python-project-49** &&
+* **$ cd python-project-49** _&&_
   * **brain-even**  _starts **"Is even?"** game_
   * **brain-calc**  _starts **"Calculator"** game_
   * **brain-gcd**  _starts **"Greatest common divisor"** game_
@@ -30,7 +30,7 @@ $ cd python-project-49 && python3 setup.py install
 
 
 ### Demonstration (asciinema's)
-1. Package install and **"Is even?"** game asciinema:  https://asciinema.org/a/HyO4ZsFhmQHetERp6hiFW0lwC
+1. **Package install** and **"Is even?"** game asciinema:  https://asciinema.org/a/HyO4ZsFhmQHetERp6hiFW0lwC
 1. **"Calculator"** game asciinema: https://asciinema.org/a/9Ep8mVgupTu6LcwhpzycOEm5p
 1. **"Greatest common divisor"** game asciinema: https://asciinema.org/a/IrRYxq445GrZxP7cJeip9sxSV
 1. **"Progression"** game asciinema: https://asciinema.org/a/wecZ1JBl37sKa49NDB5qmxI8j

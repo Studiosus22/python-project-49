@@ -16,7 +16,7 @@
 * Clone the repository and install manually:
 ```bash
 $ git clone git@github.com:Studiosus22/python-project-49.git
-$ cd python-project-49 && _make build_ --> _make publish_ --> _make package-install_
+$ cd python-project-49 && make build --> make publish --> make package-install
 ```
 
 

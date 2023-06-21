@@ -2,7 +2,7 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Arithmetic games package"
-authors = ["Your Name <you@example.com>"]
+authors = ["Mikhail Zyryanov <mzyryanov@list.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },

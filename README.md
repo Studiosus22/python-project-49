@@ -30,7 +30,8 @@ $ cd python-project-49 && make build --> make publish --> make package-install
 
 
 ### Demonstration (asciinema's)
-1. **Package install** and **"Is even?"** game asciinema:  https://asciinema.org/a/HyO4ZsFhmQHetERp6hiFW0lwC
+1. **Package install** and **"Is even?"** game asciinema:  [![asciicast](https://asciinema.org/a/HyO4ZsFhmQHetERp6hiFW0lwC.svg)](https://asciinema.org/a/HyO4ZsFhmQHetERp6hiFW0lwC)
+
 1. **"Calculator"** game asciinema: https://asciinema.org/a/9Ep8mVgupTu6LcwhpzycOEm5p
 1. **"Greatest common divisor"** game asciinema: https://asciinema.org/a/IrRYxq445GrZxP7cJeip9sxSV
 1. **"Progression"** game asciinema: https://asciinema.org/a/wecZ1JBl37sKa49NDB5qmxI8j

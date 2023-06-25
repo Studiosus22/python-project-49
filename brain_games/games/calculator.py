@@ -5,21 +5,21 @@ import random
 MIN_NUMBER = -20
 MAX_NUMBER = 20
 
-SIGN = ('+', '-', '*')
+OPERATORS = ('+', '-', '*')
 GAME_TASK = 'What is the result of the expression?'
 
 
 def generate_game_data():
     num_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
     num_2 = random.randint(MIN_NUMBER, MAX_NUMBER)
-    sign_type = random.choice(SIGN)
-    game_question = f'{num_1} {sign_type} {num_2}'
+    operator_type = random.choice(OPERATORS)
+    game_question = f'{num_1} {operator_type} {num_2}'
 
-    if sign_type == '+':
+    if operator_type == '+':
         correct_answer = str(num_1 + num_2)
-    if sign_type == '-':
+    if operator_type == '-':
         correct_answer = str(num_1 - num_2)
-    if sign_type == '*':
+    if operator_type == '*':
         correct_answer = str(num_1 * num_2)
 
     return game_question, correct_answer

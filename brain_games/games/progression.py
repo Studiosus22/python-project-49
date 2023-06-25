@@ -30,7 +30,7 @@ def generate_game_data():
     progression = create_progression(start, step, quantity)
     hidden_item = progression[hidden_item_num]
     progression[hidden_item_num] = '..'
-    game_question = " ".join(map(str, progression))
+    game_question = ' '.join(map(str, progression))
     correct_answer = str(hidden_item)
 
     return game_question, correct_answer

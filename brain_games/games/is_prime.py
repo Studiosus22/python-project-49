@@ -2,14 +2,16 @@ import random
 
 
 # Boundaries of the gaming range
-MIN_NUMBER = 1
+MIN_NUMBER = 0
 MAX_NUMBER = 100
 
 GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
-    if number == 1 or number == 2:
+    if number == 0 or number == 1:
+        return False
+    if number == 2:
         return True
     if number > 2:
         for i in range(2, (number // 2 + 1)):
@@ -19,9 +21,8 @@ def is_prime(number):
 
 
 def generate_game_data():
-    num = random.randint(MIN_NUMBER, MAX_NUMBER)
-    game_question = num
-    if is_prime(num) is True:
+    game_question = random.randint(MIN_NUMBER, MAX_NUMBER)
+    if is_prime(game_question) is True:
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
